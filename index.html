@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="icon" href="assets/img/icon.png">
+</head>
+<body>
+
+<header>
+	<h1>Sk8 a Domicilio</h1>
+</header>
+<section class="sect1">
+<p>Una nueva generación<br>
+<span class="txt-span-sect1">HECHA POR TI</span></p>
+</div>
+	<div class="slash"></div>
+</section> 
+
+<section class="content">
+	<h2>Idealiza tu tabla</h2>
+	<form id="formulario-sk8">
+
+		<div class="box_1">
+			 <label for="ruedas">Elige tus ruedas</label>
+			 <select name="ruedas" id="ruedas">
+			<option value="HR - 100A">HR - 100A</option>
+			<option value="Ruedas de 70 mm">Ruedas de 70 mm</option>
+			<option value="Ruedas de 59 mm">Ruedas de 59 mm</option>
+			<option value="Ruedas de 60 mm 80A">Ruedas de 60 mm 80A</option>
+		</select>
+			<!-- <input type="text" name="ruedas" id="ruedas" value="rojo" placeholder="Tipos de ruedas"> -->
+			<br>
+
+			<label>Escribe el color de tu tabla</label>
+			<input type="text" name="tab-col" id="coltab"><br>
+			<ul>
+				<li>Rojo</li>
+				<li>Verde</li>
+				<li>Azul</li>
+			</ul>
+			<!-- <select name="color-tab" id="col-tab">
+				<option value="rojo" id="rojo">Rojo</option>
+				<option value="rojo">verde</option>
+			</select> -->
+
+			<br>
+			<label for="tabla">Elige tu Tabla</label>
+			<select name="tabla" id="tabla">
+				<option value="Longboard">Longboard</option>
+				<option value="Cruiser">Cruiser</option>
+				<option value="Freeboard">Freeboard</option>
+				<option value="Waveboard">Waveboard</option>
+				<option value="Fingerboard">Fingerboard</option>
+			</select>
+				<br>
+			<label for="text-tb">Escribe el nombre de tu tabla</label>
+			<input type="text" name="text-tb" placeholder="Ejemplo: I <3 Sk8" id="txt-t" required="required">	
+			
+		
+	</div>
+
+	<div class="box_2">
+		<label>Caracteristicas</label>
+			<p>Lija <input type="checkbox" name="lija" id="lija" value="lija"></p>
+
+			<p>Elevadores <input type="checkbox" name="elev" value="elev" id="elev"></p>
+
+			 <p>Ejes <input type="checkbox" name="ejes" value="Ejes" id="eje"></p>
+
+			<input type="submit" name="enviar" value="Sk8 Now">
+	</form>
+	</div>	
+
+
+<div class="bigBox">
+	<div id="lista"></div>
+</div>
+
+
+
+
+
+<footer> Powered by AM </footer>
+</section>
+
+
+
+<script type="text/javascript" src="assets/scripts.js"></script>
+</body>
+</html>

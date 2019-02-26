@@ -1,0 +1,171 @@
+:root{
+	--primary-color:#0D0D0D;
+	--secondary-color:#A6A6A6;
+	--tercery-color:#737373;
+	--four-color:#404040;
+	--five-color:#efefef;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+body{
+overflow-x: hidden;
+}
+
+html{ 
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	}
+
+header{
+	width: 100%;
+	height: 40px;
+	background: var(--primary-color);
+	color: #fff;
+	padding-top: 15px;
+	padding-left: 30px;
+	font-size: 18px;
+
+}
+
+header h1{ font-size: 23px; font-weight: 100;}
+
+.content{
+	width:  90%;
+	height: 100vh;
+	margin: 30px auto;
+}
+
+.box_1{
+	width: 64.5%;
+	background: var(--secondary-color);
+}
+
+.box_2{
+	width: 34.9%;
+	background: var(--tercery-color);
+}
+
+.box_1, .box_2{
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;;
+}
+
+.bigBox{
+	width: 100%;
+	height: 300px;
+	background:var(--four-color);
+	overflow-y: scroll;
+}
+
+
+
+.sect1{
+	width: 100%;
+	height: 70vh;
+	background:url(../assets/img/skate-back-2.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+footer{
+	width: 100%;
+	background:#dedede;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 13px;
+	color: #a2a2a2;
+}
+
+
+/* Estilos de la impresion*/
+
+.txt-sk8{
+	width: 400px;
+	height: 155px;
+	position: relative;
+}
+
+.txt-sk8 img{
+	width: 100%;
+}
+
+.imp-txt{
+	font-size: 40px;
+	color: red;
+	position: absolute;
+	left: 120px;
+    top: 46px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.cont-bx{
+	width: 400px;
+	height: 300px;
+	background:#ffffff;
+	display: inline-block;
+	margin: 3px;
+	padding-left: 10px;
+}
+
+#lista {
+    display: inline-flex;
+}
+
+.bold, b{
+	font-weight: bold;
+	color: red;
+}
+
+
+.slash{
+    width: 1300px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    bottom: -120px;
+    -moz-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+    margin-left: -23px;
+}
+
+
+.sect1 p{
+	position: absolute;
+	right: 80px;
+	top: 20vh;
+	color: #fff;
+	font-size: 58px;
+	line-height: 54px;
+}
+
+.txt-span-sect1{
+	color: red;
+	font-weight: bolder;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
